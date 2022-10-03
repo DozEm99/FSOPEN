@@ -1,0 +1,18 @@
+selain -> palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+palvelin -->selain: Palautti HTML-koodia
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+palvelin-->selain: palautti css koodia
+
+selain -> palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+palvelin -->selain: Palautti javascriptia
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+palvelin-->selain: palauttia jsonia
+
+[{"content":"Hereee we go again!","date":"2022-10-03T09:13:16.839Z"},...]
+
+
+selain->palvelin: HTTP GET https://studies.cs.helsinki.fi/exampleapp/favicon.ico
+
+palvelin-->selain: palauttia html- koodia
